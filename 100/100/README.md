@@ -15,3 +15,12 @@ Use following commands to disable SELinux:
 $ sudo setenforce 0
 $ sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 ```
+
+Check if it is now "Permissive", with:
+
+```
+$ getenforce
+Permissive
+```
+
+All good!
