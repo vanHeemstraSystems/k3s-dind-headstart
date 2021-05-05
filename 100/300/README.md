@@ -49,7 +49,7 @@ $ ls -la
 k3sconfig
 ```
 
-Have alook inside k3sconfig:
+Have a look inside k3sconfig:
 
 ```
 $vi k3sconfig
