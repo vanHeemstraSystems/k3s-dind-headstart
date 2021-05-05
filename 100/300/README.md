@@ -52,7 +52,8 @@ k3sconfig
 Have alook inside k3sconfig:
 
 ```
-vi k3sconfig
+$vi k3sconfig
+
 apiVersion: v1
 clusters:
 - cluster:
