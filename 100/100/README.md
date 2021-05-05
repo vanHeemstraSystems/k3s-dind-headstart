@@ -1,7 +1,9 @@
 # 100 - Prerequisites
 
-## 100 - Docker
-For installation of Docker, see https://github.com/vanHeemstraSystems/docker-quick-start-headstart
+## 100 - Docker and docker-compose
+- For installation of Docker, see https://github.com/vanHeemstraSystems/docker-quick-start-headstart
+
+- For installation of docker-compose, see https://github.com/vanHeemstraSystems/docker-compose-quick-start-headstart
 
 ## 200 - Kubectl (Optional)
 For installation of kubectl, see https://phoenixnap.com/kb/how-to-install-kubernetes-on-centos
