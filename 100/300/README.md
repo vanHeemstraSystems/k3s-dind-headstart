@@ -44,7 +44,7 @@ $ docker exec k3s get-kubeconfig.sh > ./k3sconfig
 
 Allow for some waiting, as this will take time ... A new file 'k3sconfig' will have been created in your current directory.
 
-'''
+```
 $ ls -la
 k3sconfig
 ```
