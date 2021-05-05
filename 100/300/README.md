@@ -28,9 +28,17 @@ services:
 ```
 containers/k3s-dind/sample.docker-compose.yml
 
+Build and run the container:
+
+```
+$ cd containers/k3s-dind/
+$ docker-compose up -d
+```
+
 Followed by these commands:
 
 ```
+$ cd containers/k3s-dind/
 $ docker exec k3s get-kubeconfig.sh > ./k3sconfig
 $ export KUBECONFIG=./k3sconfig
 
