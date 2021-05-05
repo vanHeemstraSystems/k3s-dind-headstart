@@ -13,5 +13,5 @@ Use following commands to disable SELinux:
 
 ```
 $ sudo setenforce 0
-$ sudo sed -i ‘s/^SELINUX=enforcing$/SELINUX=permissive/’ /etc/selinux/config
+$ sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 ```
