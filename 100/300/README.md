@@ -79,8 +79,17 @@ Next run these commands:
 
 ```
 $ export KUBECONFIG=./k3sconfig
+```
+See for the purpose and use of KUBECONFIG environment variable, https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig
 
+```
 $ kubectl get nodes
 NAME      STATUS    ROLES     AGE       VERSION
 k3s       Ready     <none>    1m        v1.14.1-k3s.4
+```
+
+If the above command fails, try the following, explicitely pointing to the local k3sconfig file:
+
+```
+$ kubectl get nodes --kubeconfig ./k3sconfig
 ```
