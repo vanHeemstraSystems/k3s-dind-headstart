@@ -44,9 +44,14 @@ $ docker exec k3s get-kubeconfig.sh > ./k3sconfig
 
 Allow for some waiting (if it takes more than a minute, you will have too little CPU or memory, better choose a more powerful server!), as this will take time ... A new file 'k3sconfig' will have been created in your current directory.
 
+***WARNING***: Change the newly created file's permissions as it is currently unsafe (group-wide readable, world-wide readable) as follows:
+
 ```
 $ ls -la
-k3sconfig
+-rw-rw-r--. 1 cloud_user cloud_user 1052 May  6 12:34 k3sconfig
+$ chmod 600 k3sconfig
+$ ls -la
+-rw-------. 1 cloud_user cloud_user 1052 May  6 12:34 k3sconfig
 ```
 
 Have a look inside k3sconfig:
