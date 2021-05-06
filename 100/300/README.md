@@ -42,7 +42,7 @@ $ cd containers/k3s-dind/
 $ docker exec k3s get-kubeconfig.sh > ./k3sconfig
 ```
 
-Allow for some waiting, as this will take time ... A new file 'k3sconfig' will have been created in your current directory.
+Allow for some waiting (if it takes more than a minute, you will have too little CPU or memory, better choose a more powerful server!), as this will take time ... A new file 'k3sconfig' will have been created in your current directory.
 
 ```
 $ ls -la
