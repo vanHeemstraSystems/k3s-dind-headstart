@@ -2,10 +2,15 @@
 
 For more dynamic environments, you can also use k3s-dind with named Docker networks, such as a [bridge network](https://docs.docker.com/network/bridge/). Then, any other containers on the same named network with k3s-dind can access any Kubernetes services exposed by the k3s-dind cluster.
 
-First, create a Docker network, then run k3s-dind attached to that network:
+First, create a Docker network:
 
 ```
 docker network create mynetwork
+```
+
+Then run k3s-dind attached to that network:
+
+```
 docker run -d --privileged --name k3s --hostname k3s --network mynetwork unboundedsystems/k3s-dind
 
 # The second argument to get-kubeconfig.sh is the container name of k3s-dind
