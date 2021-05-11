@@ -17,5 +17,8 @@ See [README.md](./300/README.md)
 ## 400 - Exposing network services
 See [README.md](./400/README.md)
 
-## 500 - You made Kubernetes that small??
+## 500 - Changing k3s API server port
+See [README.md](./500/README.md)
+
+## 600 - You made Kubernetes that small??
 Nope! The awesome folks over at [Rancher Labs](https://rancher.com/) did all the hard work of creating [k3s](https://k3s.io/) We just packaged it into a Docker-in-Docker container.
