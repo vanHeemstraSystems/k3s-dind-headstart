@@ -25,6 +25,9 @@ services:
     privileged: true
     ports:
     - 8443:8443
+    environment:
+    - KUBECONFIG:./k3sconfig
+    - K3S_API_PORT:8443
 ```
 containers/k3s-dind/sample.docker-compose.yml
 
