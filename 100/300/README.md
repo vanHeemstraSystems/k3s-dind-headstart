@@ -90,7 +90,7 @@ See for the purpose and use of KUBECONFIG environment variable, https://kubernet
 ```
 $ kubectl get nodes
 NAME      STATUS    ROLES     AGE       VERSION
-k3s       Ready     <none>    1m        v1.14.1-k3s.4
+k3s       Ready     master    1m        v1.18.4+k3s1
 ```
 
 If the above command fails, try the following, explicitely pointing to the local k3sconfig file:
