@@ -104,24 +104,4 @@ $ kubectl get nodes --kubeconfig ./k3sconfig
 
 ## 300 - Create a cluster
 
-Now that you have installed k3s, create a k3s cluster by means of either k3d (recommended) or kubectl.
-
-### 100 - Creating a cluster with k3d
-
-Look at the help page on k3d create:
-
-```
-$ k3d create --help
-```
-
-Use the required flags as found in above help page to create a cluster with k3d:
-
-```
-$ k3d create mycluster
-```
-
-### 200 - Creating a cluster with kubectl
-
-```
-$ kubectl create mycluster
-```
+See [README.md](./300/README.md)
