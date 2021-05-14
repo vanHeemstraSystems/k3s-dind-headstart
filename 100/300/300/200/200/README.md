@@ -9,8 +9,8 @@ $ kubectl create --help
 Use the required flags as found in above help page to create a cluster with kubectl:
 
 ```
-$ K3S_CLUSTER_NAME='mycluster'
-$ K3S_CLUSTER_FLAGS=''
+$ export K3S_CLUSTER_NAME='mycluster'
+$ export K3S_CLUSTER_FLAGS=''
 $ kubectl create $K3S_CLUSTER_NAME $K3S_CLUSTER_FLAGS
 ```
 
