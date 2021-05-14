@@ -7,8 +7,8 @@ $ k3d create --help
 ```
 
 ```
-$ K3S_CLUSTER_NAME='mycluster'
-$ K3S_CLUSTER_FLAGS=''
+$ export K3S_CLUSTER_NAME='mycluster'
+$ export K3S_CLUSTER_FLAGS=''
 $ k3d create $K3S_CLUSTER_NAME $K3S_CLUSTER_FLAGS
 ```
 
