@@ -30,6 +30,12 @@ services:
 ```
 containers/k3s-dind/sample.docker-compose.yml
 
+Copy the content of the sample.docker-compose.yml into a new docker-compose.yml file (so your sample defaults are not overwritten in your Git repository)
+
+```
+$ cp sample.docker-compose.yml docker-compose.yml
+```
+
 Build and run the container:
 
 ```
