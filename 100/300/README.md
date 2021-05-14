@@ -1,5 +1,4 @@
-# 300 - Using docker-compose
-
+# 300 - Using docker-compose  (recommended)
 
 ## 100 - Dockerfile
 
