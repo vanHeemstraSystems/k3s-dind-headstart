@@ -1,2 +1,3 @@
 /containers/k3s-dind/docker-compose.yml
 /containers/k3s-dind/k3sconfig
+/containers/k3s-dind/k3dconfig
